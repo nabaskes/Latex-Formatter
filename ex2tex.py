@@ -52,4 +52,4 @@ def spreadToTex(filename=None,arr=None,outfile=None,headers=None,delimiter=None,
     table += '\hline \end{tabular}'
     print(table)
 
-spreadToTex(filename='lowiron.txt',delimiter=',',verbatimcols = [14], mathcols = [10,11,12,13])
+
